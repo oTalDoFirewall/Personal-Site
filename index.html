@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">Portfolio</span>
+                <span class="logo-bracket">/&gt;</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+                <li><a href="projects.html" class="nav-link">Projetos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="profile-image-container">
+                <img src="assets/1732918151876.jpeg" alt="Foto de Perfil" class="profile-image">
+            </div>
+            <h1 class="hero-title">Davi Gonçalves Luiz</h1>
+            <p class="hero-subtitle">Técnico em Segurança Cibernética</p>
+            <p class="hero-description" align="justify">
+                Sempre fui curioso não apenas sobre a teoria, mas também sobre a aplicação prática das coisas. Isso me levou a buscar formações mais especializadas e direcionadas às áreas da tecnologia que realmente despertam meu interesse, ao invés de optar por um caminho genérico. Atualmente, estou no último ano do Técnico em Segurança Cibernética, integrando a primeira turma do curso no sul do Brasil, enquanto inicio minha trajetória no primeiro Bacharelado em Inteligência Artificial de Santa Catarina. Hoje, tenho focado meus estudos em segurança defensiva, Active Directory, ambientes Windows e análise de más configurações de Objeto de Política de Grupo(GPO).
+            </p>
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contato" class="btn btn-secondary">Entre em Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Pentest & Segurança Ofensiva</h3>
+                    <p style="text-align: justify;">Atuação diligente na execução de avaliações de segurança com metodologia Internal Black Box, focando na identificação de vetores de ataque e análise técnica de impacto em sistemas críticos.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Segurança em Ambientes Windows</h3>
+                    <p style="text-align: justify;">Domínio técnico em arquitetura Windows Server, realizando o endurecimento (hardening) de sistemas e a mitigação proativa de vulnerabilidades específicas da plataforma.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Active Directory Security and analysis</h3>
+                    <p style="text-align: justify;">Proteção de infraestruturas de diretório com identificação proativa de caminhos de ataque, assegurando a integridade de identidades e permissões na rede.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Escalação de Privilégios (Privesc)</h3>
+                    <p style="text-align: justify;">Domínio na identificação de falhas lógicas e de configuração que permitem a elevação de acesso de usuários comuns para privilégios de SYSTEM/ROOT de forma técnica e analítica.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Análise de GPOs e Serviços</h3>
+                    <p style="text-align: justify;">Prospectivo na auditoria de Diretivas de Grupo e protocolos críticos como SMB e WinRM, detectando más configurações para prevenir a persistência de ameaças.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What I Do Section -->
+    <section class="what-i-do">
+        <div class="container">
+            <h2 class="section-title">Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Auditoria de Hardening em Active Directory</h3>
+                    <p style="text-align: justify;">Auditoria de Hardening em Active Directory, com análise de infraestruturas Windows Server para identificação de configurações inadequadas em Diretivas de Grupo (GPO) e permissões de segurança. O objetivo é reforçar o princípio do menor privilégio, reduzir superfícies de ataque e mitigar riscos de movimentação lateral antes de sua exploração.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Simulação de Adversário Interno</h3>
+                    <p style="text-align: justify;">Execução de testes controlados partindo de um ponto de acesso interno para avaliar a resiliência da rede contra escalação de privilégios. Identificação técnica de falhas em serviços e tarefas agendadas que podem levar ao comprometimento total do sistema (SYSTEM).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-content">
+                <p>Sinta-se à vontade para me contatar!</p>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/davi-gon%C3%A7alves-luiz/" class="contact-link" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/oTalDoFirewall" class="contact-link" target="_blank">GitHub</a>
+                    <a href="mailto:businessdavigl@gmail.com" class="contact-link">Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 DAVI GONÇALVES LUIZ. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
